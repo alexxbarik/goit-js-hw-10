@@ -18,3 +18,40 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-cards{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title{
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-left: 5px;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+.country-card-title{
+  margin-left: 0;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+.subtitle{
+margin-left: 5px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 20px;
+  padding: 8px 5px;
+  text-align: start;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
