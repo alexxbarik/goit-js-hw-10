@@ -7,3 +7,11 @@ export default function fetchCountries(name){
 .then(responce =>responce.json())
 
 }
+
+// !!!!!!!!!!
+// export default async function fetchCountries(name){
+//      const responce = await fetch(`${BASE_URL}${name}?${fields}`)
+//     const data = await responce.json()
+    
+// return data;
+// }

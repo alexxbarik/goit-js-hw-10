@@ -41,6 +41,9 @@ function onInputChange (e){
         .catch(error =>{error});
 
     }
+
+   
+    
     
     function makeCountryList(data){
         return data.map(({name, flags}) =>`<li class = "country-cards">
